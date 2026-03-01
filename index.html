@@ -97,9 +97,9 @@
     </div>
 
     <div class="controls">
-        <button id="prev" class="btn">⏮</button>
+        <button id="prev" class="btn"> < </button>
         <button id="play" class="btn play-btn">▶</button>
-        <button id="next" class="btn">⏭</button>
+        <button id="next" class="btn"> > </button>
     </div>
 
     <audio id="audio"></audio>
@@ -142,7 +142,7 @@
 
     function playSong() {
         isPlaying = true;
-        playBtn.innerText = '⏸';
+        playBtn.innerText = '||';
         audio.play();
     }
 
